@@ -12,8 +12,8 @@
 }
 
 html, body, #root, .app {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .app {
@@ -79,7 +79,7 @@ html, body, #root, .app {
   color: #000;
   cursor: pointer;
 }
-.cp-calculator-btn-clear:hover {
+.cp-calculator-btn-clear:active {
   color: #fff;
   background-color: #f00;
 }
@@ -109,7 +109,7 @@ html, body, #root, .app {
   color: #450099;
   cursor: pointer;
 }
-.cp-calculator-numbers-row button:hover {
+.cp-calculator-numbers-row button:active {
   background-color: #102;
   color: #306;
 }
@@ -134,7 +134,7 @@ html, body, #root, .app {
   border: none;
   cursor: pointer;
 }
-.cp-calculator-operations-container button:hover {
+.cp-calculator-operations-container button:active {
   background-color: #70f;
   color: #f07;
 }
